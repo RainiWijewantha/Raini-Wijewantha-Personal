@@ -1267,6 +1267,10 @@ h1,
     letter-spacing: -0.02em;
 }
 
+h4{
+    text-transform: uppercase;
+}
+
 @media screen and (max-width: 500px) {
 
     h1,
@@ -3733,6 +3737,10 @@ td:last-child {
 }
 
 @media screen and (max-width: 1080px) {
+    .s-intro__content-pretitle {
+        color: #d8e4f3;
+    }
+
     .s-intro {
         --content-padding-top   : max(12rem, 16vh);
         --content-padding-bottom: 9.6rem;
@@ -3752,6 +3760,10 @@ td:last-child {
 
     .s-intro__content-title {
         font-size: clamp(4.2rem, 8.2vw, 8.8rem);
+        color    : white;
+    }
+
+    .s-intro__content-title_span {
         color    : white;
     }
 
